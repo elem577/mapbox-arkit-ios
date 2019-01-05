@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
-  s.source = { :git => "https://github.com/mapbox/mapbox-arkit-ios.git", :tag => "v#{s.version.to_s}" }
+  s.source = { :git => "https://github.com/elem577/mapbox-arkit-ios.git", :tag => "v#{s.version.to_s}" }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
@@ -38,6 +38,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "MapboxARKit"
+  s.swift_version = "4.0"
 
   s.dependency "Turf"
 end
