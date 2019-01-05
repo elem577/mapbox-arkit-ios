@@ -2,6 +2,7 @@ import ARKit
 import CoreLocation
 import Turf
 
+@available(iOS 11.0, *)
 public class MBARAnchor: ARAnchor {
     
     public var calloutString: String?
