@@ -2,6 +2,7 @@ import ARKit
 import SpriteKit
 import CoreLocation
 
+@available(iOS 11.0, *)
 @objc public protocol AnnotationManagerDelegate {
     
     @objc optional func node(for annotation: Annotation) -> SCNNode?
@@ -9,6 +10,7 @@ import CoreLocation
     
 }
 
+@available(iOS 11.0, *)
 public class AnnotationManager: NSObject {
     
     public private(set) var session: ARSession
@@ -79,6 +81,7 @@ public class AnnotationManager: NSObject {
 
 // MARK: - ARSCNViewDelegate
 
+@available(iOS 11.0, *)
 extension AnnotationManager: ARSCNViewDelegate {
     
     public func session(_ session: ARSession, cameraDidChangeTrackingState camera: ARCamera) {
