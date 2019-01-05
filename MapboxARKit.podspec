@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
 
   s.name = "MapboxARKit"
-  s.version = "0.0.1"
+  s.version = "0.0.2"
   s.summary = "Utilities for combining Mapbox maps and location services with ARKit in your applications."
 
   s.description  = <<-DESC
@@ -38,7 +38,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
   s.module_name = "MapboxARKit"
-  s.swift_version = "4.0"
+  s.swift_version = "4.2"
 
   s.dependency "Turf"
 end
